@@ -1,0 +1,11 @@
+{
+    "host": "edgeimpulse.com",
+    "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjExMzU4LCJpYXQiOjE2MDg4NTU5OTcsImV4cCI6MTYxMTQ0Nzk5N30.spkZrP9vvB1oKNr_4_FEy8HM_bPrDNSRL1ylTFH9XzM",
+    "lastVersionCheck": 1608855989352,
+    "dataForwarderDevices": {},
+    "daemonDevices": {
+        "19:74:86:3C:48:72": {
+            "projectId": 14407
+        }
+    }
+}

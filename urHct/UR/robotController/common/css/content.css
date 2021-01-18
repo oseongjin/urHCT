@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* WSU 201906 */
+
+.pt30 {padding-top:30px;}
+
+/* 폰트 색상 */
+.pc_blue {color:#067cea !important;}
+.pc_green {color:#00c96d !important;}
+
+/* 타이틀 관련 */
+.cont_title1{font-size:16px; padding:0 0 7px 18px;  color:#000; background:url(../../images/contents/bg_cont_title1.png) no-repeat left 4px; background-size:14px 14px;}
+
+/* 공통 테이블 */
+.tb_base_box {position:relative; width:100%; margin-top:-20px; font-size:16px; font-weight:normal; padding-top:30px; overflow:hidden;}
+.tb_base_box .util {position:absolute; top:0px; right:0; font-size:14px; line-height:16px; color:#666;}
+.tb_base {position:relative; width:100%; border-collapse:collapse; border-top:1px solid #dbdbdb; margin-left:-1px;}
+.tb_base caption span {position:absolute; top:-9999px; overflow:hidden; height:0px; width:0px; }
+.tb_base thead th {padding:9px 5px; color:#fff; background:#4c4c4c; border-left:1px solid #dbdbdb; border-bottom:1px solid #dbdbdb;}
+.tb_base thead th:hover{background:#;}
+.tb_base td {padding:9px 5px; border-left:1px solid #b2c2e3; border-bottom:1px solid #b2c2e3; color:#666; text-align:left;}
+.tb_base td.ta_c {padding:9px 5px; text-align:center;}
+.tb_base td.ta_r {padding:9px 5px; text-align:right;}
+
+.tb_base tbody th {padding:9px 5px; color:#4c4c4c; background:#f7f7f7; border-left:1px solid #dbdbdb; border-bottom:1px solid #dbdbdb; transition:all 0.3s;}
+.tb_base tbody tr:hover th{background:#f3f3f3;}
+.tb_base tbody.tb_center td {padding:9px 5px; border-left:1px solid #dbdbdb; border-bottom:1px solid #dbdbdb;  color:#666; text-align:center; transition:all 0.3s;}
+.tb_base tbody.tb_center tr:hover td{background:#f9f9f9;}
+.tb_base tbody.tb_center td.ta_r {padding:9px 5px; text-align:right;}
+.tb_base tbody.tb_center td.ta_l {padding:9px 5px; text-align:left;}
+
+.tb_base tbody.tb_gray th {padding:9px 5px; border-left:1px solid #b2c2e3; border-bottom:1px solid #b2c2e3; color:#333; background:#fbfbfb;}
+
+.tb_base tfoot th {padding:9px 5px; color:#1d366c; background:#fbfbfb; border-left:1px solid #b2c2e3; border-bottom:1px solid #b2c2e3; font-weight:bold;}
+.tb_base tfoot td {padding:9px 5px; background:#fbfbfb; border-left:1px solid #b2c2e3; border-bottom:1px solid #b2c2e3; color:#333; font-weight:bold;}
+
+.graph{width:140px; height:100px; margin:0 auto;}
+
+.stat{display:inline-block; width:16px; height:16px; overflow:hidden; margin-right:3px;vertical-align: middle;border-radius: 4px;margin-top: -4px;}
+.stat.green{background:#00c500;}
+.stat.red{background:#e41515;}
+.stat.blue{background:#0000CD;}
+.stat.yellow{background:#f1e300;}
+
+
+/* 컨텐츠 부분 **************************************************************************************************************************************************************************/
+/* 회원정보 */
+/* 레이아웃 */
+.member_cont{position:relative; width:100%; max-width:300px; margin:0 auto; overflow:hidden;}
+.member_cont .login_logo{margin:60px auto 25px auto; text-align: center;font-size: 28px;font-weight: 600;}
+.member_inp{position:relative; width:100%;  overflow:hidden;}
+.inp_none{position:relative; width:100%; height:50px; line-height:50px; padding:0 0 0 32px; font-size:14px; border:1px solid #cdcccc;}
+.inp_none:focus{border:1px solid #000;z-index:1;}
+.inp_id{position:relative;   width:100%; height:50px; line-height:50px; padding:0 0 0 15px; font-size:14px; border:1px solid #cdcccc;  margin-bottom: 10px;border-radius: 5px !important;}
+.inp_id:focus{border:1px solid #000;}
+.inp_pw{position:relative;   width:100%; height:50px; line-height:50px; padding:0 0 0 15px; font-size:14px; border:1px solid #cdcccc;  border-radius: 5px !important;}
+.inp_pw:focus{border:1px solid #000;}
+
+.sel_type {width:100%; height:40px; line-height:40px; padding:0 0 0 5px; border:1px solid #cdcccc; vertical-align:middle; font-size:14px;  border-radius: 4px;background: #fff;}
+
+/* 라벨 */
+.btn_privacy {position:relative; left:0; top:0; overflow:hidden;}
+.btn_privacy input.btn_img {position:absolute; top:4px; left:0; opacity:0; cursor:pointer; z-index:5; width:15px; height:15px; }
+.btn_privacy i {float:left; display:block; width:15px; height:15px; margin:4px 0 0 0; background:url(../../images/contents/btn_privacy.png) no-repeat left top; z-index:3; background-size:15px 30px;}
+.btn_privacy label {float:left; margin-left:7px; cursor:pointer; font-size:12px;}
+.btn_privacy input.btn_img:checked+i {background-position:left bottom;}
+.btn_privacy input.btn_img:checked+i+label {color:#000;}
+
+/* 버튼 */
+.btn_member_confirm{display:block; width:100%; height:50px; line-height:50px; text-align:center; font-size:15px; font-weight:bold; color:#fff !important; background:#0b89ff; transition:all 0.3s;border-radius: 5px;}
+.btn_member_confirm:hover{background:#0b7de7;}
